@@ -1,0 +1,17 @@
+.button{
+  background: $gradient-main-color;
+  min-width: 100px;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 36px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  border-radius: 22px;
+  flexshrink: 0;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
